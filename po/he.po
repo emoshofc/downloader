@@ -1,0 +1,280 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the video-downloader package.
+# SPiRiT <such.a.lost.spirit@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: video-downloader\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-25 16:29+0200\n"
+"PO-Revision-Date: 2023-04-05 10:48+0000\n"
+"Last-Translator: SPiRiT <such.a.lost.spirit@gmail.com>\n"
+"Language-Team: Hebrew <https://hosted.weblate.org/projects/video-downloader/"
+"gui/he/>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
+"n % 10 == 0) ? 2 : 3));\n"
+"X-Generator: Weblate 4.17-dev\n"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:7
+#: data/com.github.unrud.VideoDownloader.desktop.in:3 src/about_dialog.ui.in:27
+#: src/main.py:39 src/window.ui:54
+msgid "Video Downloader"
+msgstr "מוריד הסרטונים"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:8
+#: data/com.github.unrud.VideoDownloader.desktop.in:4
+msgid "Download videos from websites like YouTube and many others"
+msgstr "הורד סרטונים מאתרים כמו יוטיוב ורבים אחרים"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:10
+msgid ""
+"Download videos from websites with an easy-to-use interface. Provides the "
+"following features:"
+msgstr "הורדת סרטונים ממגוון אתרים, עם ממשק פשוט לשימוש שמאפשר:"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:15
+msgid "Convert videos to MP3"
+msgstr "המרת סרטונים ל-MP3"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:16
+msgid "Supports password-protected and private videos"
+msgstr "תמיכה בסרטונים מוגנים עם סיסמה וסרטונים פרטיים"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:17
+msgid "Download single videos or whole playlists"
+msgstr "הורדת סרטונים בודדים או פלייליסט שלם"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:18
+msgid "Automatically selects a video format based on your quality demands"
+msgstr "בחירה אוטומטית של פורמט הסרטון, לפי דרישות האיכות שלך"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:20
+msgid "Based on yt-dlp."
+msgstr "מבוסס על yt-dlp."
+
+#: data/com.github.unrud.VideoDownloader.desktop.in:14
+#: src/shortcuts_dialog.ui:39 src/window.ui:30
+msgid "New Window"
+msgstr "חלון חדש"
+
+#: src/authentication_dialog.py:30
+msgid "Authentication Required"
+msgstr "נדרשת הזדהות"
+
+#: src/authentication_dialog.py:34 src/window.ui:249
+msgid "Cancel"
+msgstr "ביטול"
+
+#: src/authentication_dialog.py:46
+msgid "Sign in"
+msgstr "התחברות"
+
+#: src/authentication_dialog.py:46
+msgid "Skip"
+msgstr "דלג"
+
+#: src/authentication_dialog_login.ui:31
+#: src/authentication_dialog_password.ui:31
+msgid "The video is not public."
+msgstr "הסרטון אינו ציבורי."
+
+#: src/authentication_dialog_login.ui:44
+msgid "Username"
+msgstr "שם משתמש"
+
+#: src/authentication_dialog_login.ui:70
+#: src/authentication_dialog_password.ui:40
+msgid "Password"
+msgstr "סיסמה"
+
+#: src/main.py:38
+msgid "Prefill URL field"
+msgstr "קישור למילוי אוטומטי"
+
+#: src/model.py:66
+msgid "Best"
+msgstr "הכי טובה"
+
+#: src/model.py:67
+msgid "4320p (8K)"
+msgstr "4320p (8K)"
+
+#: src/model.py:68
+msgid "2160p (4K)"
+msgstr "2160p (4K)"
+
+#: src/model.py:69
+msgid "1440p (HD)"
+msgstr "1440p (HD)"
+
+#: src/model.py:70
+msgid "1080p (HD)"
+msgstr "1080p (HD)"
+
+#: src/model.py:71
+msgid "720p (HD)"
+msgstr "720p (HD)"
+
+#: src/model.py:72
+msgid "480p"
+msgstr "480p"
+
+#: src/model.py:73
+msgid "360p"
+msgstr "360p"
+
+#: src/model.py:74
+msgid "240p"
+msgstr "240p"
+
+#: src/model.py:75
+msgid "144p"
+msgstr "144p"
+
+#: src/model.py:157
+msgid "Invalid download folder"
+msgstr "תיקיית הורדה לא תקינה"
+
+#: src/model.py:277 src/model.py:283 src/window.py:434
+msgid "Not a directory"
+msgstr "זו לא תיקייה"
+
+#: src/model.py:281 src/model.py:286
+msgid "Permission denied"
+msgstr "הגישה נדחתה"
+
+#: src/playlist_dialog.py:29
+msgid "Download Playlist?"
+msgstr "להוריד פלייליסט?"
+
+#: src/playlist_dialog.py:30
+msgid "The video is part of a playlist."
+msgstr "הסרטון הוא חלק מפלייליסט."
+
+#: src/playlist_dialog.py:32
+msgid "Single Video"
+msgstr "סרטון בודד"
+
+#: src/playlist_dialog.py:33
+msgid "All Videos in Playlist"
+msgstr "כל הסרטונים בפלייליסט"
+
+#: src/shortcuts_dialog.ui:29
+msgid "General"
+msgstr "כללי"
+
+#: src/shortcuts_dialog.ui:33
+msgid "Open Menu"
+msgstr "פתיחת תפריט"
+
+#: src/shortcuts_dialog.ui:45
+msgid "Close Window"
+msgstr "סגירת תפריט"
+
+#: src/shortcuts_dialog.ui:51
+msgid "Quit"
+msgstr "יציאה"
+
+#: src/shortcuts_dialog.ui:57 src/window.ui:41
+msgid "Keyboard Shortcuts"
+msgstr "קיצורי דרך במקלדת"
+
+#: src/shortcuts_dialog.ui:64
+msgid "Navigation"
+msgstr "ניווט"
+
+#: src/shortcuts_dialog.ui:68
+msgid "Go back"
+msgstr "אחורה"
+
+#: src/shortcuts_dialog.ui:74
+msgid "Switch to Audio"
+msgstr "עבור לשמע"
+
+#: src/shortcuts_dialog.ui:80
+msgid "Switch to Video"
+msgstr "עבור לוידאו"
+
+#: src/window.py:263
+msgid "Downloading"
+msgstr "מוריד"
+
+#: src/window.py:265 src/window.py:288
+msgid "{} of {}"
+msgstr "{} מתוך {}"
+
+#: src/window.py:289 src/window.py:291
+msgid "unknown"
+msgstr "לא ידוע"
+
+#: src/window.py:359 src/window.ui:388
+msgid "Download failed"
+msgstr "ההורדה נכשלה"
+
+#: src/window.py:363 src/window.ui:508
+msgid "Download finished"
+msgstr "ההורדה הושלמה"
+
+#: src/window.py:367 src/window.ui:517
+msgid "Open Download Location"
+msgstr "פתח תיקיית הורדות"
+
+#: src/window.py:405
+msgid "Reset to Default"
+msgstr "ברירות מחדל"
+
+#: src/window.py:406 src/window.py:439 src/window.ui:37
+msgid "Change Download Location"
+msgstr "בחר תיקיית יעד להורדות"
+
+#: src/window.py:436
+msgid "Invalid folder selected"
+msgstr "נבחרה תיקייה לא תקינה"
+
+#: src/window.py:440
+msgid "Select Folder"
+msgstr "בחר תיקייה"
+
+#: src/window.ui:45
+msgid "About Video Downloader"
+msgstr "אודות מוריד הסרטונים"
+
+#: src/window.ui:95
+msgid "Main Menu"
+msgstr "תפריט ראשי"
+
+#: src/window.ui:109
+msgid "Audio"
+msgstr "שמע"
+
+#: src/window.ui:131 src/window.ui:182
+msgid "URL"
+msgstr "קישור"
+
+#: src/window.ui:141 src/window.ui:211
+msgid "Download"
+msgstr "הורדה"
+
+#: src/window.ui:160
+msgid "Video"
+msgstr "סרטון"
+
+#: src/window.ui:190
+msgid "Resolution"
+msgstr "רזולוציה"
+
+#: src/window.ui:198
+msgid "Prefer MPEG format"
+msgstr "עדיפות לפורמט MPEG"
+
+#: src/window.ui:340 src/window.ui:359 src/window.ui:460 src/window.ui:479
+msgid "Back"
+msgstr "חזרה"
+
+#: src/window.ui:407 src/window.ui:534
+msgid "Details"
+msgstr "פרטים"

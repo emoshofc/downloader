@@ -1,0 +1,284 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the video-downloader package.
+# mere <mere@users.noreply.hosted.weblate.org>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: video-downloader\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-25 16:29+0200\n"
+"PO-Revision-Date: 2023-05-06 17:51+0000\n"
+"Last-Translator: mere <mere@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Romanian <https://hosted.weblate.org/projects/video-"
+"downloader/gui/ro/>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Weblate 4.18-dev\n"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:7
+#: data/com.github.unrud.VideoDownloader.desktop.in:3 src/about_dialog.ui.in:27
+#: src/main.py:39 src/window.ui:54
+msgid "Video Downloader"
+msgstr "Video Downloader"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:8
+#: data/com.github.unrud.VideoDownloader.desktop.in:4
+msgid "Download videos from websites like YouTube and many others"
+msgstr ""
+"Descărcați videoclipuri de pe site-uri web precum YouTube și multe altele"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:10
+msgid ""
+"Download videos from websites with an easy-to-use interface. Provides the "
+"following features:"
+msgstr ""
+"Descărcați videoclipuri de pe site-uri web cu o interfață ușor de utilizat. "
+"Oferă următoarele caracteristici:"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:15
+msgid "Convert videos to MP3"
+msgstr "Convertiți videoclipuri în MP3"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:16
+msgid "Supports password-protected and private videos"
+msgstr "Suportă videoclipuri private și protejare prin parolă"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:17
+msgid "Download single videos or whole playlists"
+msgstr "Descărcați videoclipuri individuale sau liste de redare întregi"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:18
+msgid "Automatically selects a video format based on your quality demands"
+msgstr ""
+"Selectează automat un format video în funcție de cerințele tale de calitate"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:20
+msgid "Based on yt-dlp."
+msgstr "Bazat pe yt-dlp."
+
+#: data/com.github.unrud.VideoDownloader.desktop.in:14
+#: src/shortcuts_dialog.ui:39 src/window.ui:30
+msgid "New Window"
+msgstr "Fereastră nouă"
+
+#: src/authentication_dialog.py:30
+msgid "Authentication Required"
+msgstr "Autentificare necesară"
+
+#: src/authentication_dialog.py:34 src/window.ui:249
+msgid "Cancel"
+msgstr "Anulează"
+
+#: src/authentication_dialog.py:46
+msgid "Sign in"
+msgstr "Conectează-te"
+
+#: src/authentication_dialog.py:46
+msgid "Skip"
+msgstr "Omite"
+
+#: src/authentication_dialog_login.ui:31
+#: src/authentication_dialog_password.ui:31
+msgid "The video is not public."
+msgstr "Videoclipul nu este public."
+
+#: src/authentication_dialog_login.ui:44
+msgid "Username"
+msgstr "Nume de utilizator"
+
+#: src/authentication_dialog_login.ui:70
+#: src/authentication_dialog_password.ui:40
+msgid "Password"
+msgstr "Parolă"
+
+#: src/main.py:38
+msgid "Prefill URL field"
+msgstr "Precompletați câmpul URL"
+
+#: src/model.py:66
+msgid "Best"
+msgstr "Cel mai bun"
+
+#: src/model.py:67
+msgid "4320p (8K)"
+msgstr "4320p (8K)"
+
+#: src/model.py:68
+msgid "2160p (4K)"
+msgstr "2160p (4K)"
+
+#: src/model.py:69
+msgid "1440p (HD)"
+msgstr "1440p (HD)"
+
+#: src/model.py:70
+msgid "1080p (HD)"
+msgstr "1080p (HD)"
+
+#: src/model.py:71
+msgid "720p (HD)"
+msgstr "720p (HD)"
+
+#: src/model.py:72
+msgid "480p"
+msgstr "480p"
+
+#: src/model.py:73
+msgid "360p"
+msgstr "360p"
+
+#: src/model.py:74
+msgid "240p"
+msgstr "240p"
+
+#: src/model.py:75
+msgid "144p"
+msgstr "144p"
+
+#: src/model.py:157
+msgid "Invalid download folder"
+msgstr "Dosar de descărcare invalid"
+
+#: src/model.py:277 src/model.py:283 src/window.py:434
+msgid "Not a directory"
+msgstr "Nu este un director"
+
+#: src/model.py:281 src/model.py:286
+msgid "Permission denied"
+msgstr "Permisiunea refuzată"
+
+#: src/playlist_dialog.py:29
+msgid "Download Playlist?"
+msgstr "Descărcați playlist-ul?"
+
+#: src/playlist_dialog.py:30
+msgid "The video is part of a playlist."
+msgstr "Videoclipul face parte dintr-un playlist."
+
+#: src/playlist_dialog.py:32
+msgid "Single Video"
+msgstr "Un singur videoclip"
+
+#: src/playlist_dialog.py:33
+msgid "All Videos in Playlist"
+msgstr "Toate videoclipurile din Playlist"
+
+#: src/shortcuts_dialog.ui:29
+msgid "General"
+msgstr "General"
+
+#: src/shortcuts_dialog.ui:33
+msgid "Open Menu"
+msgstr "Deschideți meniul"
+
+#: src/shortcuts_dialog.ui:45
+msgid "Close Window"
+msgstr "Închideți fereastra"
+
+#: src/shortcuts_dialog.ui:51
+msgid "Quit"
+msgstr "Închide"
+
+#: src/shortcuts_dialog.ui:57 src/window.ui:41
+msgid "Keyboard Shortcuts"
+msgstr "Comenzi rapide de la tastatură"
+
+#: src/shortcuts_dialog.ui:64
+msgid "Navigation"
+msgstr "Navigare"
+
+#: src/shortcuts_dialog.ui:68
+msgid "Go back"
+msgstr "Înapoi"
+
+#: src/shortcuts_dialog.ui:74
+msgid "Switch to Audio"
+msgstr "Comutați la Audio"
+
+#: src/shortcuts_dialog.ui:80
+msgid "Switch to Video"
+msgstr "Comutați la Video"
+
+#: src/window.py:263
+msgid "Downloading"
+msgstr "Descărcarea"
+
+#: src/window.py:265 src/window.py:288
+msgid "{} of {}"
+msgstr "{} din {}"
+
+#: src/window.py:289 src/window.py:291
+msgid "unknown"
+msgstr "necunoscut"
+
+#: src/window.py:359 src/window.ui:388
+msgid "Download failed"
+msgstr "Descărcare eșuată"
+
+#: src/window.py:363 src/window.ui:508
+msgid "Download finished"
+msgstr "Descărcarea s-a terminat"
+
+#: src/window.py:367 src/window.ui:517
+msgid "Open Download Location"
+msgstr "Deschideți locația de descărcare"
+
+#: src/window.py:405
+msgid "Reset to Default"
+msgstr "Resetare la valorile implicite"
+
+#: src/window.py:406 src/window.py:439 src/window.ui:37
+msgid "Change Download Location"
+msgstr "Modificarea locației de descărcare"
+
+#: src/window.py:436
+msgid "Invalid folder selected"
+msgstr "Dosar nevalid selectat"
+
+#: src/window.py:440
+msgid "Select Folder"
+msgstr "Selectați Folder"
+
+#: src/window.ui:45
+msgid "About Video Downloader"
+msgstr "Despre Video Downloader"
+
+#: src/window.ui:95
+msgid "Main Menu"
+msgstr "Meniu principal"
+
+#: src/window.ui:109
+msgid "Audio"
+msgstr "Audio"
+
+#: src/window.ui:131 src/window.ui:182
+msgid "URL"
+msgstr "URL-ul"
+
+#: src/window.ui:141 src/window.ui:211
+msgid "Download"
+msgstr "Descarcă"
+
+#: src/window.ui:160
+msgid "Video"
+msgstr "Video"
+
+#: src/window.ui:190
+msgid "Resolution"
+msgstr "Rezoluţie"
+
+#: src/window.ui:198
+msgid "Prefer MPEG format"
+msgstr "Prefer formatul MPEG"
+
+#: src/window.ui:340 src/window.ui:359 src/window.ui:460 src/window.ui:479
+msgid "Back"
+msgstr "Înainte"
+
+#: src/window.ui:407 src/window.ui:534
+msgid "Details"
+msgstr "Detalii"

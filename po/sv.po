@@ -1,0 +1,282 @@
+# Swedish translations for video-downloader package.
+# Copyright (C) 2020 THE video-downloader'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the video-downloader package.
+# Åke Engelbrektson <eson@svenskasprakfiler.se>, 2021.
+# Luna Jernberg <droidbittin@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: video-downloader\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-25 16:29+0200\n"
+"PO-Revision-Date: 2023-03-02 08:38+0000\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/video-downloader/"
+"gui/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16\n"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:7
+#: data/com.github.unrud.VideoDownloader.desktop.in:3 src/about_dialog.ui.in:27
+#: src/main.py:39 src/window.ui:54
+msgid "Video Downloader"
+msgstr "Video Downloader"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:8
+#: data/com.github.unrud.VideoDownloader.desktop.in:4
+msgid "Download videos from websites like YouTube and many others"
+msgstr "Ladda ner videoklipp från webbplatser som YouTube och många andra"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:10
+msgid ""
+"Download videos from websites with an easy-to-use interface. Provides the "
+"following features:"
+msgstr ""
+"Ladda ner videoklipp från webbplatser, med ett lättanvänt gränssnitt. "
+"Innehåller följande funktioner:"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:15
+msgid "Convert videos to MP3"
+msgstr "Konvertera videoklipp till MP3"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:16
+msgid "Supports password-protected and private videos"
+msgstr "Stödjer lösenordsskyddade och privata videoklipp"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:17
+msgid "Download single videos or whole playlists"
+msgstr "Ladda ner enstaka videoklipp eller hela spelningslistor"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:18
+msgid "Automatically selects a video format based on your quality demands"
+msgstr "Välj automatiskt ett videoformat, baserat på dina kvalitetskrav."
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:20
+msgid "Based on yt-dlp."
+msgstr "Baserat på yt-dlp."
+
+#: data/com.github.unrud.VideoDownloader.desktop.in:14
+#: src/shortcuts_dialog.ui:39 src/window.ui:30
+msgid "New Window"
+msgstr "Nytt fönster"
+
+#: src/authentication_dialog.py:30
+msgid "Authentication Required"
+msgstr "Autentisering krävs"
+
+#: src/authentication_dialog.py:34 src/window.ui:249
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/authentication_dialog.py:46
+msgid "Sign in"
+msgstr "Logga in"
+
+#: src/authentication_dialog.py:46
+msgid "Skip"
+msgstr "Hoppa över"
+
+#: src/authentication_dialog_login.ui:31
+#: src/authentication_dialog_password.ui:31
+msgid "The video is not public."
+msgstr "Videon är inte offentlig."
+
+#: src/authentication_dialog_login.ui:44
+msgid "Username"
+msgstr "Användarnamn"
+
+#: src/authentication_dialog_login.ui:70
+#: src/authentication_dialog_password.ui:40
+msgid "Password"
+msgstr "Password"
+
+#: src/main.py:38
+msgid "Prefill URL field"
+msgstr "Förifyll URL-fält"
+
+#: src/model.py:66
+msgid "Best"
+msgstr "Bäst"
+
+#: src/model.py:67
+msgid "4320p (8K)"
+msgstr "4320p (8K)"
+
+#: src/model.py:68
+msgid "2160p (4K)"
+msgstr "2160p (4K)"
+
+#: src/model.py:69
+msgid "1440p (HD)"
+msgstr "1440p (HD)"
+
+#: src/model.py:70
+msgid "1080p (HD)"
+msgstr "1080p (HD)"
+
+#: src/model.py:71
+msgid "720p (HD)"
+msgstr "720p (HD)"
+
+#: src/model.py:72
+msgid "480p"
+msgstr "480p"
+
+#: src/model.py:73
+msgid "360p"
+msgstr "360p"
+
+#: src/model.py:74
+msgid "240p"
+msgstr "240p"
+
+#: src/model.py:75
+msgid "144p"
+msgstr "144p"
+
+#: src/model.py:157
+msgid "Invalid download folder"
+msgstr "Ogiltig nerladdningsmapp"
+
+#: src/model.py:277 src/model.py:283 src/window.py:434
+msgid "Not a directory"
+msgstr "Inte en mapp"
+
+#: src/model.py:281 src/model.py:286
+msgid "Permission denied"
+msgstr "Åtkomst nekad"
+
+#: src/playlist_dialog.py:29
+msgid "Download Playlist?"
+msgstr "Vill du ladda ner spelningslistan?"
+
+#: src/playlist_dialog.py:30
+msgid "The video is part of a playlist."
+msgstr "Denna video är en del av en spelningslista."
+
+#: src/playlist_dialog.py:32
+msgid "Single Video"
+msgstr "Enstaka video"
+
+#: src/playlist_dialog.py:33
+msgid "All Videos in Playlist"
+msgstr "Alla videor i spelningslistan"
+
+#: src/shortcuts_dialog.ui:29
+msgid "General"
+msgstr "Allmänt"
+
+#: src/shortcuts_dialog.ui:33
+msgid "Open Menu"
+msgstr "Öppna meny"
+
+#: src/shortcuts_dialog.ui:45
+msgid "Close Window"
+msgstr "Stänga fönster"
+
+#: src/shortcuts_dialog.ui:51
+msgid "Quit"
+msgstr "Avsluta"
+
+#: src/shortcuts_dialog.ui:57 src/window.ui:41
+msgid "Keyboard Shortcuts"
+msgstr "Tangentbordsgenvägar"
+
+#: src/shortcuts_dialog.ui:64
+msgid "Navigation"
+msgstr "Navigering"
+
+#: src/shortcuts_dialog.ui:68
+msgid "Go back"
+msgstr "Gå bakåt"
+
+#: src/shortcuts_dialog.ui:74
+msgid "Switch to Audio"
+msgstr "Ändra till ljud"
+
+#: src/shortcuts_dialog.ui:80
+msgid "Switch to Video"
+msgstr "Ändra till video"
+
+#: src/window.py:263
+msgid "Downloading"
+msgstr "Nerladdning"
+
+#: src/window.py:265 src/window.py:288
+msgid "{} of {}"
+msgstr "{} av {}"
+
+#: src/window.py:289 src/window.py:291
+msgid "unknown"
+msgstr "okänd"
+
+#: src/window.py:359 src/window.ui:388
+msgid "Download failed"
+msgstr "Nerladdning misslyckades"
+
+#: src/window.py:363 src/window.ui:508
+msgid "Download finished"
+msgstr "Nerladdning slutförd"
+
+#: src/window.py:367 src/window.ui:517
+msgid "Open Download Location"
+msgstr "Öppna nerladdningsplats"
+
+#: src/window.py:405
+msgid "Reset to Default"
+msgstr "Återställ till standard"
+
+#: src/window.py:406 src/window.py:439 src/window.ui:37
+msgid "Change Download Location"
+msgstr "Ändra nerladdningsplats"
+
+#: src/window.py:436
+msgid "Invalid folder selected"
+msgstr "Ogiltig mapp vald"
+
+#: src/window.py:440
+msgid "Select Folder"
+msgstr "Välj mapp"
+
+#: src/window.ui:45
+msgid "About Video Downloader"
+msgstr "Om Video Downloader"
+
+#: src/window.ui:95
+msgid "Main Menu"
+msgstr "Huvudmeny"
+
+#: src/window.ui:109
+msgid "Audio"
+msgstr "Ljud"
+
+#: src/window.ui:131 src/window.ui:182
+msgid "URL"
+msgstr "URL"
+
+#: src/window.ui:141 src/window.ui:211
+msgid "Download"
+msgstr "Ladda ner"
+
+#: src/window.ui:160
+msgid "Video"
+msgstr "Video"
+
+#: src/window.ui:190
+msgid "Resolution"
+msgstr "Upplösning"
+
+#: src/window.ui:198
+msgid "Prefer MPEG format"
+msgstr "Föredra MPEG format"
+
+#: src/window.ui:340 src/window.ui:359 src/window.ui:460 src/window.ui:479
+msgid "Back"
+msgstr "Tillbaka"
+
+#: src/window.ui:407 src/window.ui:534
+msgid "Details"
+msgstr "Detaljerad information"
